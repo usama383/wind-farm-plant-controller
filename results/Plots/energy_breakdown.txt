@@ -1,0 +1,12 @@
+100 MW WIND FARM - MODELLED ENERGY REDUCTION
+Illustrative inputs; not historical measured curtailment.
+Available energy: 84.601111 MWh
+Commanded energy: 73.677737 MWh
+Dispatch-constrained energy reduction: 10.640893 MWh
+Additional recovery-ramp energy reduction: 0.282481 MWh
+Total not-produced energy: 10.923374 MWh
+Energy closure error: 0.000000000 MWh
+Maximum dispatch upward ramp (1s average): 10.000000 MW/min
+Minimum dispatch ramp (1s average): -10.000000 MW/min
+Maximum final upward ramp (1s average): 10.000000 MW/min
+Minimum final downward change (1s average; outage): -1799.678754 MW/min
