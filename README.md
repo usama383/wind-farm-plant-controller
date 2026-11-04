@@ -178,11 +178,12 @@ $$
 
 Where:
 
-- \(P_{\mathrm{cmd}}\): Active-power command (MW)
-- \(Q_{\mathrm{cmd}}\): Reactive-power command (Mvar)
-- \(V_{LL}\): Line-to-line RMS voltage (kV)
-- \(I_{\mathrm{ref}}\): Current magnitude (A)
-- \(\phi_{\mathrm{ref}}\): Current phase (rad)
+- $P_{\mathrm{cmd}}$: Active-power command (MW)
+- $Q_{\mathrm{cmd}}$: Reactive-power command (Mvar)
+- $V_{LL}$: Line-to-line RMS voltage (kV)
+- $I_{\mathrm{ref}}$: Current magnitude (A)
+- $\phi_{\mathrm{ref}}$: Current phase (rad)
+
 
 The phase convention follows the model's current-injection implementation.
 
@@ -243,7 +244,7 @@ The simulated availability outage represents a rapid loss of generation, rather 
 
 ### 3.1 Active-Power Control and Curtailment
 
-![Active Power Control](results/plots/01_Active_Power_Control.png)
+![Active Power Control](results/Plots/01_Active_Power_Control.png)
 
 The first figure compares:
 
@@ -259,7 +260,7 @@ When the grid-dispatch request exceeds available wind generation, the controller
 
 ### 3.2 PCC Active-Power Tracking
 
-![PCC Active Power Tracking](results/plots/02_PCC_Active_Power_Tracking.png)
+![PCC Active Power Tracking](results/Plots/02_PCC_Active_Power_Tracking.png)
 
 Measured PCC active power closely follows the final commanded active power throughout the simulation.
 
@@ -275,7 +276,7 @@ Small variations in PCC measured power remain visible due to the electrical mode
 
 ### 3.3 Reactive-Power and Voltage Behaviour
 
-![Reactive Power and Voltage](results/plots/03_Reactive_Power_and_Voltage.png)
+![Reactive Power and Voltage](results/Plots/03_Reactive_Power_and_Voltage.png)
 
 The PCC voltage remains close to nominal throughout the 60-minute simulation.
 
@@ -297,7 +298,7 @@ The final 60-minute nominal-voltage scenario does not independently demonstrate 
 
 ### 3.4 Ramp-Rate Verification
 
-![Ramp Rate Verification](results/plots/04_Ramp_Rate_Verification_Refined.png)
+![Ramp Rate Verification](results/Plots/04_Ramp_Rate_Verification_Refined.png)
 
 The refined ramp-rate verification includes:
 
@@ -325,7 +326,7 @@ The ramp-rate checks are based on one-second logged data.
 
 ### 3.5 Modelled Energy Reduction
 
-![Modelled Energy Reduction](results/plots/05_Modelled_Energy_Reduction.png)
+![Modelled Energy Reduction](results/Plots/05_Modelled_Energy_Reduction.png)
 
 Energy not produced is estimated by comparing the available wind-energy profile with the final commanded power.
 
