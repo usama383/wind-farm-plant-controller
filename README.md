@@ -90,8 +90,7 @@ $$
 A second Rate Limiter prevents sudden increases in commanded power when wind availability recovers.
 
 $$
-P_{\mathrm{cmd}} =
-\operatorname{UpRateLimit}(P_{\mathrm{target}})
+P_{\mathrm{cmd}} = \mathrm{UpRateLimit}(P_{\mathrm{target}})
 $$
 
 The final controller allows:
@@ -174,7 +173,7 @@ The current phase is calculated as:
 
 $$
 \phi_{\mathrm{ref}} =
-\operatorname{atan2}(-Q_{\mathrm{cmd}},P_{\mathrm{cmd}})
+\mathrm{atan2}(-Q_{\mathrm{cmd}},P_{\mathrm{cmd}})
 $$
 
 Where:
